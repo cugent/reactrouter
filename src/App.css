@@ -31,3 +31,28 @@
     transform: rotate(360deg);
   }
 }
+
+#personal {
+  width: 300px;
+  height: 300px;
+  overflow-y: auto;
+  border: 1px solid black;
+}
+
+#work {
+  width: 300px;
+  height: 300px;
+  overflow-y: auto;
+  border: 1px solid black;
+}
+
+#workarea {
+  display: flex;
+  justify-content: space-evenly;
+}
+.bold {
+  font-weight: bold;
+}
+.red {
+  color: red;
+}
